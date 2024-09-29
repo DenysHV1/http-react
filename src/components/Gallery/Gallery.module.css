@@ -1,0 +1,26 @@
+
+  .btn {
+	padding: 8px 16px 8px 16px;
+	border-radius: 8px;
+	background-color: #4e75ff;
+	border: 1px solid #4e75ff;
+  
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+	background-color: #6c8cff;
+  }
+
+  
+  .galleryList {
+	margin-top: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: center;
+	list-style: none;
+  }

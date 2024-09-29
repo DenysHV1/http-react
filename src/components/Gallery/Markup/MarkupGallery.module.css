@@ -1,0 +1,40 @@
+
+  
+  .galleryListItem {
+	width: 360px;
+	border: 1px solid #808080;
+  }
+  
+  .galleryImg {
+	width: 360px;
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  .statisticsList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 28px;
+	background-color: #fff;
+  }
+  
+  .statisticsItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+  
+  .statisticsItemName {
+	font-weight: 600;
+	line-height: 133%;
+	letter-spacing: 0.04em;
+	color: #2e2f42;
+  }
+  
+  .statisticsResult {
+	line-height: 200%;
+	letter-spacing: 0.04em;
+	color: #2e2f42;
+  }

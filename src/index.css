@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
 
 body {
   margin: 0;
@@ -8,6 +8,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+	font-family: Montserrat, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #2e2f42;
+  }
+  
+  .container {
+	padding: 10px;
+	margin: 0 auto;
+  }
+  
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
