@@ -1,4 +1,4 @@
-import css from './MarkupGallery.module.css'
+import css from './MarkupGallery.module.css';
 
 export const MarkupGallery = ({ arrResult }) => {
   console.log(arrResult);
